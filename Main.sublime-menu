@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "AutoBuilder",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/AutoBuilder/AutoBuilder.sublime-settings"},
+                                "caption": "Default Preferences"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/AutoBuilder.sublime-settings"},
+                                "caption": "User Preferences"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

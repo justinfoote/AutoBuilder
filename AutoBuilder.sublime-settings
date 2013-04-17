@@ -1,0 +1,10 @@
+{
+	// set to a command to run after every save.  I use this to always keep my 
+    // java stuff compiled.  The command will be fired off and forgotten about
+    // after every save for the specified file types
+    "autobuild_command": {
+        // example:
+        // "java": "cd my_working_directory && ant compile"
+    }
+
+}
